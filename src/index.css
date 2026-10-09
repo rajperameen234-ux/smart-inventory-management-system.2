@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: #f4f6fa; color: #1f2937; }
+button { font: inherit; cursor: pointer; border: none; border-radius: 8px; padding: 0.55rem 1rem; }
+.app { max-width: 1100px; margin: 0 auto; padding: 2rem 1.25rem; }
+.categories-header { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }
+.categories-header h1 { margin: 0; }
+.categories-header p, .category-form-header p { margin: 0.25rem 0 0; color: #6b7280; }
+.add-category-btn, .save-category-btn { background: #2563eb; color: #fff; }
+.category-cancel-btn, .close-category-form { background: #e5e7eb; color: #1f2937; }
+.category-form-card { background: #fff; border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+.category-form-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem; }
+.category-form-header h2 { margin: 0; }
+.category-form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+.category-form-group { display: flex; flex-direction: column; gap: 0.35rem; }
+.category-form-group input { padding: 0.6rem 0.75rem; border: 1px solid #d1d5db; border-radius: 8px; font: inherit; }
+.category-form-actions { display: flex; justify-content: flex-end; gap: 0.75rem; margin-top: 1.25rem; }
+.categories-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
+.category-card { background: #fff; border-radius: 12px; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); display: flex; flex-direction: column; gap: 0.75rem; }
+.category-icon { font-size: 1.75rem; }
+.category-info h3 { margin: 0; }
+.category-info p { margin: 0.25rem 0; color: #4b5563; }
+.category-info span { font-size: 0.8rem; color: #9ca3af; }
+.category-actions { display: flex; gap: 0.5rem; }
+.category-edit-btn { background: #eef2ff; color: #3730a3; }
+.category-delete-btn { background: #fee2e2; color: #b91c1c; }
